@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bulb-on/off</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div class="container">
+        <h1>Click on bulb &#128522</h1>
+      <img class="patlu_img" src="https://i.postimg.cc/CK6kSDS9/patlu.png" alt="" />
+      <img class="Bulb" id ="Image" onclick="turnOnOff()" 
+src="https://i.postimg.cc/y88DxdQK/OFFbulb.jpg">
+  
+    </div>
+    <script>
+      let image=document.getElementById('Image');
+        function turnOnOff(){
+       if (image.src =="https://i.postimg.cc/y88DxdQK/OFFbulb.jpg"){
+         image.src="https://i.postimg.cc/0Ng13XJ4/ONbulb.jpg";
+       }
+       else {
+         console.log("bulb is off");
+         image.src= "https://i.postimg.cc/y88DxdQK/OFFbulb.jpg"
+       }
+        }
+    </script>
+  </body>
+</html>
