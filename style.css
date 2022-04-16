@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', cursive;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 5px orangered;
+    color: yellow;
+}
+.container{
+    position: relative;
+    left:5rem;
+    top:2rem;
+    /* border: 2px solid firebrick; */
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transform: translateY(-50%); */
+}
+.patlu_img{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 3rem;
+    display: inline-block;
+    margin: 0px auto;
+    right: 2%;
+}
+.Bulb{
+    width: 102px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top:-26px;
+    right:119px;
+    transform: rotate(25deg);
+}
